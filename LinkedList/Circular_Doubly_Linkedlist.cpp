@@ -26,7 +26,8 @@ class Node{
     }
 };
 
-void insert_Node(Node* &head,int element,int data){
+void insert_Node(Node* &head,int element,int data)
+{
     if(head==NULL){
         Node* temp=new Node(data);
         head=temp;

@@ -100,21 +100,21 @@ void deleteany_position(Node* &head,int position){
     }
     else{
 
-    Node* ptr=head;
-    Node* current=head;
-    int count=1;
-    Node* pre=NULL;
-    while(count<=position-1){
-    pre=current;
-    current=current->next;
-    count++;
-    }
-    pre->next=current->next;
-    current->next->prev=pre;
-    
-    current->next=NULL;
-      current->prev=NULL;
-      delete current;
+          Node* ptr=head;
+          Node* current=head;
+          int count=1;
+          Node* pre=NULL;
+          while(count<=position-1){
+          pre=current;
+          current=current->next;
+          count++;
+          }
+          pre->next=current->next;
+          current->next->prev=pre;
+          
+          current->next=NULL;
+                  current->prev=NULL;
+            delete current;
 
     }
   
