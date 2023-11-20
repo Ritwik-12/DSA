@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/ritwi/Desktop/DSA-ALGO/String",
-      "program": "c:/Users/ritwi/Desktop/DSA-ALGO/String/build/Debug/outDebug",
+      "cwd": "c:/Users/ritwi/Desktop/DSA-ALGO/Arrays",
+      "program": "c:/Users/ritwi/Desktop/DSA-ALGO/Arrays/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

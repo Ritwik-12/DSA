@@ -58,6 +58,22 @@ class Twostack{
             cout<<"the stacsk is empty";
         }
     }
+    void pop1(){
+        if(top1>=0){
+            top1--;
+        }
+        else{
+            cout<<"stack underflwo";
+        }
+    }
+    void pop2(){
+        if(top2<size){
+            top2++;
+        }
+        else{
+            cout<<"stack underflow";
+        }
+    }
 };
 int main()
 {
@@ -69,6 +85,8 @@ int main()
 
      st.push2(14);
      st.push2(24);
+     st.pop1();
+     st.pop2();
 
     cout<<st.peek1()<<" ";
     cout<<st.peek2()<<" ";
